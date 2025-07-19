@@ -16,6 +16,7 @@
 .nav-bar{
     display: flex;
     justify-content: space-between;
+    margin: auto 120px;
     
     
 }
@@ -87,4 +88,14 @@
     margin: 0 auto;
     max-width: 1110px;
     justify-items: center;
+    margin: 0 165px 100px 165px;
+    gap: 96px;
+}
+.footer{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.footer-icon{
+    gap: 16px;
 }
