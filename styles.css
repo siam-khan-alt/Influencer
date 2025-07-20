@@ -1,4 +1,6 @@
-
+*{
+ max-width: 1440px;
+}
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -72,6 +74,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+     box-shadow: 0 0 rgba(0, 0, 0, 0.15);
 
 }
 .card{
@@ -80,6 +83,17 @@
     box-shadow: 0 0 rgba(0, 0, 0, 0.15);
     width: 329px;
     height: 476px;
+    
+}
+.card-ratting{
+    color: rgba(251, 130, 0, 1);
+}
+#price{
+    color: rgba(94, 99, 102, 1);
+}
+#see{
+    display: flex;
+    justify-content: flex-end;
     
 }
 .Featured{
@@ -92,10 +106,12 @@
     gap: 96px;
 }
 .footer{
+    background-color: #AAAAAA;
     display: grid;
     justify-content: center;
     text-align: center;
 }
 .footer-icon{
-    gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
